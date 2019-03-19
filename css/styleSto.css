@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.position {
+    width: 1135px;
+    margin: auto;
+    position: relative;
+}
+nav ul {
+    float: left;
+    margin: 26px 0;
+}
+nav li {
+    float: right;
+    list-style-type: none;
+    margin-left: 55px;
+}
+nav:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    width: 100%;
+    height: 600px;
+    background: url(../img/header.png) no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+}
+.grey {
+    width: 100%;
+    height: 600px;
+    background: rgba(124, 126, 130, 0.78) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+header h2 {
+    float: left;
+    padding: 21px 0;
+    color: #fff;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    font: bolder 30px 'Open Sans';
+    color: #fff;
+    position: absolute;
+    left: 355px;
+    top: 225px;
+    z-index: 2;
+}
+.logo p {
+    background: url(../img/tel.png) repeat-x;
+    color: #fff;
+    display: inline-block;
+    font: bold 21.5px 'Open Sans';
+    padding: 12px;
+    position: absolute;
+    left: 530px;
+    top: 395px;
+    z-index: 2;
+}
+.main {
+    width: 1135px;
+    margin: auto;
+}
+.main section {
+    text-align: center;
+    padding-top: 115px;
+    margin: 0 270px;
+}
+.main section h2:after {
+    content: '';
+    display: table;
+    height: 2px;
+    width: 81px;
+    margin: 40px auto;
+    border-bottom: 2px solid #6ba0d2;
+}
+.subtitles h2 {
+    color: #454545;
+    font: 21px 'Open Sans';
+}
+.subtitles p {
+    margin-bottom: 100px;
+    font: 300 14px 'Open Sans';
+    color: #737373;
+    line-height: 30px;
+}
+.service .subtitles p {
+    font: 300 14px 'Open Sans';
+    color: #737373;
+    line-height: 30px;
+}
+figure {
+    background: #f5f5f5;
+    display: block;
+    float: left;
+    box-sizing: content-box;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.photo:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+figcaption {
+    padding: 10px;
+    border-right: 1px solid #f0efef;
+}
+.all a {
+    font: 13px 'Open Sans';
+    padding: 8px 35px;
+    border: 1px solid #6ca6d8;
+    color: #2378c0;
+    text-decoration: none;
+}
+.all {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.repairfriz {
+    width: 345px;
+    background: url(../img/cooling.png) no-repeat;
+}
+.oil {
+    width: 345px;
+    background: url(../img/changeOfOil.png) no-repeat;
+}
+.diagnostics {
+    width: 345px;
+    background: url(../img/diagnostics.png) no-repeat;
+}
+.repairignition {
+    width: 345px;
+    background: url(../img/repair.png) no-repeat;
+}
+.repairelectrics {
+    width: 350px;
+    background: url(../img/repairEquipment.png) no-repeat;
+}
+.repairbody {
+    width: 345px;
+    background: url(../img/repairBody.png) no-repeat;
+}
+.flex h3 {
+    font: 14px 'Open Sans';
+    margin-bottom: 5px;
+    padding-left: 110px;
+}
+.flex p {
+    font: 300 14px 'Open Sans';
+    color: #737373;
+    line-height: 30px;
+    padding-left: 110px;
+    margin-bottom: 80px;
+}
+.service {
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    margin-top: 110px;
+}
+.serviceimg {
+    display: table;
+    float: left;
+}
+service:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.service h2:after {
+    content: '';
+    display: table;
+    height: 2px;
+    width: 81px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #6ba0d2;
+}
+.service section {
+    padding-top: 95px;
+    padding-left: 615px;
+}
+.service ul {
+    columns: 3;
+    line-height: 30px;
+}
+.service .all {
+    padding: 50.5px 0;
+    margin: 0;
+}
+.service li {
+    list-style: none;
+    padding-left: 25px;
+    background: url(../img/mark.png) no-repeat 0 8px;
+}
+.service li a {
+    font: 600 14px 'Open Sans';
+    color: #90b8dd;
+    text-decoration: none;
+}
+footer {
+    height: 530px;
+    margin: auto;
+    background: rgb(115, 118, 122);
+}
+.contacts {
+    width: 290px;
+    float: left;
+}
+.hours {
+    width: 195px;
+    float: left;
+}
+.list {
+    width: 630px;
+    float: left;
+}
+footer .main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+footer h3:after {
+    content: '';
+    display: table;
+    height: 2px;
+    width: 40px;
+    margin: 30px 0;
+    border-bottom: 2px solid #9a9c9e;
+}
+.sub {
+    padding-top: 115px;
+    font: bold 18px 'Open Sans';
+    color: #fff;
+}
+.whitecolor {
+    font: 14px 'Open Sans';
+    line-height: 25px;
+    color: #fff;
+}
+footer ul {
+    column-count: 2;
+}
+footer li {
+    list-style: none;
+    font: 14px 'Open Sans';
+    padding-bottom: 10px;
+    color: #fff;
+}
+.min {
+    width: 225px;
+}
+.contacts a {
+    margin-top: 45px;
+    width: 50px;
+    height: 51px;
+    display: inline-block;
+}
+.facebook {
+    background: url(../img/sociable.png) no-repeat 0 0;
+}
+.twitter {
+    background: url(../img/sociable.png) no-repeat -58px 0;
+}
+.linkedin {
+    background: url(../img/sociable.png) no-repeat -116px 0;
+}
+.pinterest {
+    background: url(../img/sociable.png) no-repeat -174px 0;
+}
